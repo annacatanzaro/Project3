@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>AI Web Lab</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Unit 8: Intro to AI with TensorFlow.js</h1>
+<div id="tf-container">
+<h3>Image Classification Demo</h3>
+<img id="cat-image" src="img/cat2.jpg" width="300" alt="A cat"/>
+<p><strong>Model's Prediction:</strong> <span id="prediction">Loading...</span></p>
+</div>
+<script
+src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-
+models/mobilenet@latest/dist/mobilenet.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
